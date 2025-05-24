@@ -1,0 +1,23 @@
+
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3e9d2;color:#5a5339;line-height:1.6}
+header,footer{background:#7a8b54;color:#f3e9d2;text-align:center;padding:1rem}
+nav a{color:#d9c79e;margin:0 0.75rem;text-decoration:none}
+.container{padding:2rem}
+section{margin-bottom:3rem}
+h1,h2,h3{color:#5a5339}
+form{display:flex;flex-direction:column;max-width:480px;gap:1rem}
+input,select,textarea,button{padding:.7rem;border:1px solid #a1866f;border-radius:6px;background:#f9f5e7}
+button{background:#9ba77b;color:#5a5339;cursor:pointer;font-weight:bold}
+button:hover{background:#7a8b54;color:#f3e9d2}
+.box{background:#e8f5e1;padding:1.5rem;border-radius:8px}
+.points{background:#fff8e6;padding:.8rem;border:1px dashed #b39e7a;border-radius:6px}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #a1866f;padding:6px}
+th{background:#cfe3bf}
+#chatbot-toggle{position:fixed;bottom:20px;right:20px;width:48px;height:48px;border-radius:50%;background:#4f6648;color:#fff;border:none;font-size:1.4rem;cursor:pointer;z-index:999}
+#chatbot-box{position:fixed;bottom:80px;right:20px;width:300px;max-height:420px;background:#fff;border:2px solid #a1b58c;border-radius:10px;display:none;flex-direction:column;z-index:998}
+#chatbot-header{background:#7a8b54;color:#fff;padding:.5rem;text-align:center;font-weight:bold;border-radius:8px 8px 0 0}
+#chatbot-messages{flex:1;padding:0.5rem;overflow-y:auto;font-size:.9rem}
+#chatbot-input{display:flex;border-top:1px solid #ccc}
+#chatbot-input input{flex:1;padding:.5rem;border:none}
+#chatbot-input button{background:#9ba77b;border:none;color:#fff;padding:.5rem 0.8rem;cursor:pointer}
